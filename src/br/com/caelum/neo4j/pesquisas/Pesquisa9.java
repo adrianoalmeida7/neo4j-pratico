@@ -6,10 +6,7 @@ import org.neo4j.cypher.javacompat.ExecutionEngine;
 import org.neo4j.cypher.javacompat.ExecutionResult;
 import org.neo4j.graphdb.GraphDatabaseService;
 import org.neo4j.graphdb.Node;
-import org.neo4j.graphdb.RelationshipType;
 import org.neo4j.kernel.EmbeddedGraphDatabase;
-
-import br.com.caelum.neo4j.relacionamento.Relacionamentos;
 
 public class Pesquisa9 {
 
@@ -19,7 +16,7 @@ public class Pesquisa9 {
 		
 		
 		// 4 é a Maria
-		String query = "start n=node(4) match n-[:VIAJOU_PARA]->(cidade)<-[:VIAJOU_PARA]-(pessoas) where pessoas.nome =~ /Fa.*/ return distinct pessoas";
+		String query = "start n=node(4) match n-[:VIAJOU_PARA]->(cidade)<-[:VIAJOU_PARA]-(pessoas) where pessoas.nome =~ 'Fa.*' return distinct pessoas";
 
 		ExecutionEngine engine = new ExecutionEngine(db);
 		ExecutionResult result = engine.execute(query);

@@ -4,15 +4,15 @@ import java.util.Calendar;
 import java.util.Map;
 
 import org.neo4j.helpers.collection.MapUtil;
-import org.neo4j.kernel.impl.batchinsert.BatchInserter;
-import org.neo4j.kernel.impl.batchinsert.BatchInserterImpl;
+import org.neo4j.unsafe.batchinsert.BatchInserter;
+import org.neo4j.unsafe.batchinsert.BatchInserters;
 
 import br.com.caelum.neo4j.relacionamento.Relacionamentos;
 
 public class Importador {
 	public static void main(String[] args) {
 		Importador importador = new Importador();
-		BatchInserter inserter = new BatchInserterImpl("database");
+		BatchInserter inserter = BatchInserters.inserter("database");
 		
 		System.out.println("Importa dados");
 		

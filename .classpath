@@ -3,27 +3,27 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
 	<classpathentry kind="lib" path="lib/geronimo-jta_1.1_spec-1.1.1.jar"/>
-	<classpathentry kind="lib" path="lib/lucene-core-3.1.0.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-community-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-cypher-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-graph-algo-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-graph-matching-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-jmx-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-kernel-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-lucene-index-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-shell-1.5.jar"/>
-	<classpathentry kind="lib" path="lib/neo4j-udc-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-3.5.0.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-cypher-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-graph-algo-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-graph-matching-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-jmx-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-kernel-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-lucene-index-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-shell-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/neo4j-udc-1.8.1.jar"/>
 	<classpathentry kind="lib" path="lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar"/>
-	<classpathentry kind="lib" path="lib/scala-library-2.9.0-1.jar"/>
-	<classpathentry kind="lib" path="lib/server-api-1.5.jar"/>
+	<classpathentry kind="lib" path="lib/scala-library-2.9.1-1.jar"/>
+	<classpathentry kind="lib" path="lib/server-api-1.8.1.jar"/>
 	<classpathentry kind="lib" path="lib-server/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="lib-server/asm-3.1.jar"/>
 	<classpathentry kind="lib" path="lib-server/asm-analysis-3.2.jar"/>
 	<classpathentry kind="lib" path="lib-server/asm-commons-3.2.jar"/>
 	<classpathentry kind="lib" path="lib-server/asm-tree-3.2.jar"/>
 	<classpathentry kind="lib" path="lib-server/asm-util-3.2.jar"/>
-	<classpathentry kind="lib" path="lib-server/blueprints-core-1.0.jar"/>
-	<classpathentry kind="lib" path="lib-server/blueprints-neo4j-graph-1.0.jar"/>
+	<classpathentry kind="lib" path="lib-server/bcprov-jdk16-140.jar"/>
+	<classpathentry kind="lib" path="lib-server/blueprints-core-1.2.jar"/>
+	<classpathentry kind="lib" path="lib-server/blueprints-neo4j-graph-1.2.jar"/>
 	<classpathentry kind="lib" path="lib-server/commons-beanutils-1.8.0.jar"/>
 	<classpathentry kind="lib" path="lib-server/commons-beanutils-core-1.8.0.jar"/>
 	<classpathentry kind="lib" path="lib-server/commons-collections-3.2.1.jar"/>
@@ -32,11 +32,14 @@
 	<classpathentry kind="lib" path="lib-server/commons-io-1.4.jar"/>
 	<classpathentry kind="lib" path="lib-server/commons-lang-2.4.jar"/>
 	<classpathentry kind="lib" path="lib-server/commons-logging-1.1.1.jar"/>
-	<classpathentry kind="lib" path="lib-server/gremlin-1.3.jar"/>
-	<classpathentry kind="lib" path="lib-server/groovy-1.8.2.jar"/>
-	<classpathentry kind="lib" path="lib-server/jackson-core-asl-1.8.3.jar"/>
-	<classpathentry kind="lib" path="lib-server/jackson-jaxrs-1.8.3.jar"/>
-	<classpathentry kind="lib" path="lib-server/jackson-mapper-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="lib-server/concurrentlinkedhashmap-lru-1.3.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/gremlin-groovy-1.5.jar"/>
+	<classpathentry kind="lib" path="lib-server/gremlin-java-1.5.jar"/>
+	<classpathentry kind="lib" path="lib-server/groovy-1.8.5.jar"/>
+	<classpathentry kind="lib" path="lib-server/jackson-core-asl-1.9.7.jar"/>
+	<classpathentry kind="lib" path="lib-server/jackson-jaxrs-1.9.7.jar"/>
+	<classpathentry kind="lib" path="lib-server/jackson-mapper-asl-1.9.7.jar"/>
+	<classpathentry kind="lib" path="lib-server/janino-2.5.10.jar"/>
 	<classpathentry kind="lib" path="lib-server/jansi-1.5.jar"/>
 	<classpathentry kind="lib" path="lib-server/jcl-over-slf4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib-server/jersey-core-1.9.jar"/>
@@ -45,18 +48,19 @@
 	<classpathentry kind="lib" path="lib-server/jettison-1.3.jar"/>
 	<classpathentry kind="lib" path="lib-server/jetty-6.1.25.jar"/>
 	<classpathentry kind="lib" path="lib-server/jetty-util-6.1.25.jar"/>
-	<classpathentry kind="lib" path="lib-server/jsr311-api-1.1.1.jar"/>
-	<classpathentry kind="lib" path="lib-server/log4j-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/jsr311-api-1.1.2.r612.jar"/>
+	<classpathentry kind="lib" path="lib-server/logback-access-0.9.30.jar"/>
+	<classpathentry kind="lib" path="lib-server/logback-classic-0.9.30.jar"/>
+	<classpathentry kind="lib" path="lib-server/logback-core-0.9.30.jar"/>
 	<classpathentry kind="lib" path="lib-server/mimepull-1.6.jar"/>
-	<classpathentry kind="lib" path="lib-server/neo4j-cypher-plugin-1.5.jar"/>
-	<classpathentry kind="lib" path="lib-server/neo4j-gremlin-plugin-1.5.jar"/>
-	<classpathentry kind="lib" path="lib-server/neo4j-server-1.5-static-web.jar"/>
-	<classpathentry kind="lib" path="lib-server/neo4j-server-1.5.jar"/>
-	<classpathentry kind="lib" path="lib-server/pipes-0.8.jar"/>
+	<classpathentry kind="lib" path="lib-server/neo4j-cypher-plugin-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/neo4j-gremlin-plugin-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/neo4j-server-1.8.1-static-web.jar"/>
+	<classpathentry kind="lib" path="lib-server/neo4j-server-1.8.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/pipes-1.0.jar"/>
 	<classpathentry kind="lib" path="lib-server/rrd4j-2.0.7.jar"/>
 	<classpathentry kind="lib" path="lib-server/servlet-api-2.5-20081211.jar"/>
-	<classpathentry kind="lib" path="lib-server/slf4j-api-1.6.1.jar"/>
-	<classpathentry kind="lib" path="lib-server/slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib-server/slf4j-api-1.6.2.jar"/>
 	<classpathentry kind="lib" path="lib-server/stax-api-1.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

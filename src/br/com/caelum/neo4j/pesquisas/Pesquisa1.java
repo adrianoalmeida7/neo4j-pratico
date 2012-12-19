@@ -15,7 +15,6 @@ public class Pesquisa1 {
 		GraphDatabaseService db = criaDatabase();
 
 		Node lugarDeOrigem = db.getNodeById(4);
-
 		Iterable<Node> nos = Traversal.description()
 				.evaluator(Evaluators.excludeStartPosition())
 				.relationships(Relacionamentos.MOROU_EM, Direction.OUTGOING)
